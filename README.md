@@ -46,7 +46,7 @@ Il est maintenant possible de se rendre sur `http://localhost/ping`!
 
 > La commande `docker scan` semble avoir été supprimée. Il est désormais proposé d'utiliser la commande `docker scout`
 
-Vous trouverez en suivant le récapitulatif de ma commande `docker scout` :
+Vous trouverez en suivant le récapitulatif de ma commande `docker scout`. Aucune vulnérabilité ne semble avoir été détectée.
 
 ```bash
 PS C:\Users\Utilisateur\Desktop\YNOV\WIK-DPS-TP02> docker scout recommendations wik-dps-tp02
