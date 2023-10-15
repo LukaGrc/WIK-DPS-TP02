@@ -1,5 +1,14 @@
 # MODULE - DevOps : WIK-DPS-TP02
 
+- [I - Prérequis](#i---prérequis)
+- [II - Installation & Dépendances](#ii---installation--dépendances)
+    - En single-stage
+    - En multi-stage
+- [III - Lancement du projet](#iii---lancement-du-projet)
+    - Avec le port par défaut
+    - En précisant un port
+- [IV - Docker scan](#iv---docker-scan)
+
 ## I - Prérequis
 
 Pour lancer ce projet, vous devez avoir docker d'installé sur votre machine.
@@ -42,7 +51,7 @@ docker run -p 80:8080 -e PING_LISTEN_PORT=8080 wik-dps-tp02 # Ici, on précise e
 
 Il est maintenant possible de se rendre sur `http://localhost/ping`!
 
-## Docker scan
+## IV - Docker scan
 
 > La commande `docker scan` semble avoir été supprimée. Il est désormais proposé d'utiliser la commande `docker scout`
 
